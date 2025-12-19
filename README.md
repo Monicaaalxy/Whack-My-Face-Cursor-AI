@@ -1,49 +1,61 @@
-# 🎮 Whack My Face - Cursor AI
+# 🎮 Whack My Pop-up Face!
 
-An interactive and engaging whack-a-mole style game built with HTML, CSS, and JavaScript. Test your reflexes by whacking the pop-up face before time runs out!
+A fun and engaging whack-a-mole style browser game built with HTML, CSS, and JavaScript. Test your reflexes by whacking the pop-up face as many times as you can in 30 seconds!
 
-## 🎯 Game Features
+## ✨ Features
 
+- **Interactive Gameplay**: Click on the pop-up faces to score points
 - **30-Second Challenge**: Race against time to get the highest score
-- **Dynamic Gameplay**: Faces pop up randomly at varying intervals
-- **Score Tracking**: Real-time score display as you play
-- **Sound Effects**: Immersive audio feedback for hits and game results
-- **Beautiful Design**: Minimalist coral reef red themed interface
-- **Responsive Layout**: Works on desktop and mobile devices
-
-## 🎵 Audio Features
-
-- Click sound when you hit a face
-- Victory sound for scores above 20
-- Game over sound for scores 20 or below
+- **Visual Feedback**: Red cross appears when you successfully hit a target
+- **Sound Effects**: 
+  - Click sound on each successful hit
+  - Victory sound when scoring > 20 points
+  - Game over sound when scoring ≤ 20 points
+- **Responsive Design**: Beautiful coral reef red gradient background with minimalist UI
+- **Smooth Animations**: Faces pop up randomly at random intervals
 
 ## 🚀 How to Play
 
-1. Click the "Start Game" button
-2. Watch for faces popping up from the holes
-3. Click on the faces as quickly as possible
-4. Try to score as many points as you can in 30 seconds!
+1. Open `index.html` in your web browser
+2. Click the "Start Game" button
+3. Whack the faces as they pop up from the circular holes
+4. Try to score as many points as possible in 30 seconds!
+5. View your final score in the game over modal
+
+## 📁 Project Files
+
+- `index.html` - Main game file (HTML, CSS, and JavaScript all-in-one)
+- `20240517_105318.jpg` - Player's face image used in the game
+- `click-sound.wav` - Sound effect when hitting a target
+- `game-over-sound.wav` - Sound effect when game ends with score ≤ 20
+- `win-sound.wav` - Victory sound effect when score > 20
+
+## 🎯 Game Mechanics
+
+- Faces appear randomly from the 3x3 grid of holes
+- Each successful hit awards 1 point
+- The game lasts for 30 seconds
+- Score > 20: You win! 🎉
+- Score ≤ 20: Keep practicing! 💪
 
 ## 🛠️ Technologies Used
 
 - HTML5
-- CSS3 (with animations and gradients)
-- Vanilla JavaScript
-- Audio API
+- CSS3 (with animations and gradient backgrounds)
+- Vanilla JavaScript (no frameworks required)
 
-## 📦 Files Included
+## 🎨 Design Features
 
-- `index.html` - Main game file
-- `20240517_105318.jpg` - Game character image
-- `click-sound.wav` - Hit sound effect
-- `win-sound.wav` - Victory sound
-- `game-over-sound.wav` - Game over sound
+- Circular holes with inner shadows for depth
+- Circular images with white borders
+- Animated red cross on successful hits
+- Modal popup for game over screen
+- Fully responsive for mobile and desktop
 
-## 🎮 Play Now
+## 📝 Credits
 
-Simply open `index.html` in your web browser and start playing!
+Created with Cursor AI as a fun coding project!
 
 ---
 
-*Created with Cursor AI*
-
+**Enjoy the game and try to beat your high score!** 🎮✨
